@@ -88,8 +88,8 @@ def main():
                     change_x = 0
                     change_y = snake_block
 
-        # Update snake position
         snake_x = (snake_x + change_x) % width
+        # Update snake position
         snake_y = (snake_y + change_y) % height
         head = (snake_x, snake_y)
 
